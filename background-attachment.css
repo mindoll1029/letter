@@ -1,0 +1,27 @@
+body{
+  height: 800px;
+}
+.parent{
+  width: 768px;
+  height: 509px;
+  border: 1px solid red;
+  overflow: scroll;
+  position: relative;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  
+  background-image: url('/images/Aegithalos\ caudatus\ caudatus.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 768px 509px;
+  background-attachment: scroll;
+}
+.children{
+  height: 500px;
+}
+.from{
+  position: absolute;
+  right: 10px;
+  top: 650px;
+  transform: translateY(-100%);
+}
